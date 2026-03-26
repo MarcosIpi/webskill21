@@ -14,7 +14,39 @@
 
 <body>
     <header>
-        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light px-3">
+            <a class="navbar-brand" href="index.html"><img src="logos/logo.png" alt="" width="70" class="img-fluid"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Selecciona categoria</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Anfibios</a>
+                            <a class="dropdown-item" href="#">Aves</a>
+                            <a class="dropdown-item" href="#">Mamíferos</a>
+                            <a class="dropdown-item" href="#">Peces</a>
+                            <a class="dropdown-item" href="reptiles.html">Reptiles</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#registrate">Registrarte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicia sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
     </header>
     <main>
 
