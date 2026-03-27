@@ -8,13 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS v5.2.1 -->
+
+    <link rel="stylesheet" href="css/style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light px-3">
+    </head>
+
+<body class="bg-verdeClaro">
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-sm navbar-verde  px-3">
             <a class="navbar-brand" href="index.html"><img src="logos/logo.png" alt="" width="70" class="img-fluid"></a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -24,7 +29,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
@@ -48,17 +53,17 @@
         </nav>
 
     </header>
-    <main>
+    <main >
         <div class="container text-center ">
             <p class="pt-4 display-4">Catálogo de animales</p>
             <h1>Reptiles. Encontrados: 4</h1>
             <hr class="mx-5">
             <div class="row mx-5 flex-nowrap overflow-auto">
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="card border-0">
+                <div class="col-sm-6 col-md-4 col-lg-3 ">
+                    <div class="card border-0 ">
                         <img class="card-img-top img-fluid rounded-0" src="animales/Reptiles/culebra.jpg" alt="Title" />
-                        <div class="card-body p-0">
-                            <h4 class="card-title bg-success text-white">Culebra</h4>
+                        <div class="card-body p-0 bg-verdeClaro">
+                            <h4 class="card-title bg-verde-card text-white ">Culebra</h4>
                         </div>
                     </div>
                 </div>
@@ -66,24 +71,24 @@
                     <div class="card border-0">
                         <img class="card-img-top img-fluid rounded-0" src="animales/Reptiles/galapago.jpg"
                             alt="Title" />
-                        <div class="card-body p-0">
-                            <h4 class="card-title bg-success text-white">Galápago</h4>
+                        <div class="card-body p-0 bg-verdeClaro">
+                            <h4 class="card-title bg-verde-card text-white">Galápago</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card border-0">
                         <img class="card-img-top img-fluid rounded-0" src="animales/Reptiles/lagartija.jpg" alt="Title" />
-                        <div class="card-body p-0">
-                            <h4 class="card-title bg-success text-white">Lagartija</h4>
+                        <div class="card-body p-0 bg-verdeClaro">
+                            <h4 class="card-title bg-verde-card text-white">Lagartija</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-3">
                     <div class="card border-0">
                         <img class="card-img-top img-fluid rounded-0" src="animales/Reptiles/lagarto.JPG" alt="Title" />
-                        <div class="card-body p-0">
-                            <h4 class="card-title bg-success text-white">Lagarto</h4>
+                        <div class="card-body p-0 bg-verdeClaro">
+                            <h4 class="card-title bg-verde-card text-white">Lagarto</h4>
                         </div>
                     </div>
                 </div>
@@ -91,11 +96,11 @@
             <hr class="mx-5">
             <h1>Culebra bastarda</h1>
             <hr class="mx-5">
-            <div class="row bg-success-subtle mx-4 mb-4 text-start">
+            <div class="row bg-reptiles mx-4 mb-4 text-start">
                 <div class="col-lg-4">
                     <h2>Taxonomía</h2>
                     <table class="w-100 mb-3">
-                        <tr class="bg-success">
+                        <tr class="bg-tabla">
                             <td class="p-2">
                                 Reino:
                             </td>
@@ -111,7 +116,7 @@
                                 Chordata
                             </td>
                         </tr>
-                        <tr class="bg-success">
+                        <tr class="bg-tabla">
                             <td class="p-2">
                                 Clase:
                             </td>
@@ -127,7 +132,7 @@
                                 Squamata
                             </td>
                         </tr>
-                        <tr class="bg-success">
+                        <tr class="bg-tabla">
                             <td class="p-2">
                                 Familia:
                             </td>
@@ -143,7 +148,7 @@
                                 Malpolon
                             </td>
                         </tr>
-                        <tr class="bg-success">
+                        <tr class="bg-tabla">
                             <td class="p-2">
                                 Especie:
                             </td>
@@ -209,35 +214,35 @@
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
                         <li class="text-center">Centros participantes</li>
-                        <a href=""
+                        <a href="http://www.ies-azarquiel.es/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Azarquiel</li>
                         </a>
-                        <a href=""
+                        <a href="http://www.iesjuanbosco.es/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Juan Bosco</li>
                         </a>
-                        <a href=""
+                        <a href="http://iesmaestredecalatrava.es/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Maestre de Calatrava</li>
                         </a>
-                        <a href=""
+                        <a href="https://cifpvirgendegracia.com/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Virgen de Gracia</li>
                         </a>
-                        <a href=""
+                        <a href="http://www.iesgregorioprieto.com/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Gregorio Prieto</li>
                         </a>
-                        <a href=""
+                        <a href="https://www.iespedromercedes.es/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Pedro Mercedes</li>
                         </a>
-                        <a href=""
+                        <a href="http://briandademendoza.es/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Brianda de Mendoza</li>
                         </a>
-                        <a href=""
+                        <a href="http://riberadeltajo.es/nuevaweb/"
                             class="text-white text-center link-underline-light link-underline-opacity-0 link-underline-opacity-75-hover">
                             <li>I.E.S Ribera del Tajo</li>
                         </a>
@@ -265,7 +270,7 @@
                     </a>
                 </div>
             </div>
-            <h5 class="text-center">Catálogo de animales e, SIDAM - SIDAW</h5>
+            <h5 class="text-center">Catálogo de animales <i class="fa fa-copyright" aria-hidden="true"></i> SIDAM - SIDAW</h5>
         </div>
     </footer>
 
@@ -303,7 +308,7 @@
                                 <label for="telefono" class="form-label">Teléfono</label>
                                 <input id="telefono" name="telefono" type="tel" class="form-control" required>
                             </div>
-                            <button type="submit" class="btn btn-register w-100 p-1">Entrar</button>
+                            <button type="submit" class="btn btn-verde text-white w-100 p-1">Entrar</button>
                         </form>
                     </div>
                 </div>
@@ -330,7 +335,7 @@
                                 <label for="password" class="form-label">Contraseña</label>
                                 <input id="password" name="password" type="password" class="form-control" required>
                             </div>
-                            <button type="submit" class="btn btn-register w-100 p-1 text-white">Entrar</button>
+                            <button type="submit" class="btn btn-verde w-100 p-1 text-white">Entrar</button>
                         </form>
                     </div>
                 </div>
@@ -361,7 +366,7 @@
                                 <label for="comentario" class="form-label">Comentario</label>
                                 <textarea id="comentario" name="comentario" class="form-control" rows="4"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-register w-100 p-1 text-white">Entrar</button>
+                            <button type="submit" class="btn btn-verde w-100 p-1 text-white">Entrar</button>
                         </form>
                     </div>
                 </div>
